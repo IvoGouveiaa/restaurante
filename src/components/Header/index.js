@@ -8,7 +8,7 @@ function Header(){
       
         <header>
         
-           Comandas
+          Rendezvous
             
             
         <div className="menu">
@@ -17,7 +17,6 @@ function Header(){
              <Link to ='/cardapio'>Cardapio</Link>
              <Link to ='/comanda'>Comanda</Link>  
             <Link to ='/cozinha'>Cozinha</Link>
-            <Link to ='/'>Pagina Inicial</Link>
             <Link to ='/login'>Login</Link>
 
         </div>
