@@ -59,7 +59,6 @@ function Cadastro(){
             <option value = "3">Cozinheiro</option>
             <option value = "4">Gerente</option>
             </select>
-            <button type="submit">Confirmar</button>
 
 
             <br/>
