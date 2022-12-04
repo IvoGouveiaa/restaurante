@@ -28,14 +28,8 @@ return(
     <input onChange={(x) => {setCategoria(x.target.value); }}>
         
     </input>
-    <br/>
+
     <button type='submit'>Login</button>
-    <br/>
-    <span>  {produto}</span>
-    <br/>
-   <span>  {categoria}</span> 
-
-
 
     </form>
 

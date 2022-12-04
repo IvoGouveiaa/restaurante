@@ -1,4 +1,4 @@
-import { BrowserRouter, Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Router, Switch, Routes, Route } from "react-router-dom";
 
 
         import Cadastro from './pages/Cadastro';
@@ -18,20 +18,22 @@ import { BrowserRouter, Router, Routes, Route } from "react-router-dom";
                 return (
                 
                 <BrowserRouter>
-                <Header/>
+
+                   
+                
+               <Header/>
                 <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/cadastro" element={<Cadastro/>}/>
                 <Route path="/cardapio" element={<Cardapio/>}/>
                 <Route path="/comanda" element={<Comanda/>}/>
                 <Route path="/cozinha" element={<Cozinha/>}/>
-                <Route path="/Login" element={<Login/>}/>
+                <Route path="/login" element={<Login/>}/>
                 <Route path="/comanda1" element={<Comanda1/>}/>
                 <Route path="/comanda2" element={<Comanda2/>}/>
                 <Route path="/comanda3" element={<Comanda3/>}/>
 
                 </Routes>
-
                 </BrowserRouter>
 
                 )
